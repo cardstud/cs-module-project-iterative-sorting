@@ -356,7 +356,7 @@ def insertion_sort(list_to_sort):
     # range based starting at index 1
     for i in range(1, len(list_to_sort)):
         # put the current number into a temporary variable
-        temp = list_to_sort[i]  # grabs 2 first
+        temp = list_to_sort[i]  # grabs the number 2 (index 1) first
 
         # keep track of our current index as j (decrement it) j is in our while loop
         curr_index = i

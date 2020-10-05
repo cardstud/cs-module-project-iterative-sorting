@@ -399,10 +399,13 @@ Challenge:
      Which veresion do you think is better and why?
 
 3. What will the contents of the same array look like after each pass of the INSERTION SORT algorithm?
----ask Tom T about this to check this
+
 25  67  4   33  19  40
-25  67  4   19  33  40
-4   25  67  19  33  40?
+25  4   67  19  33  40
+4   25  67  19  33  40
+4   19  25  67  33  40
+4   19  25  33  67  40
+4   19  25  33  40  67
 
 4. You have the cards 2,7,3,4 and 6. Write and algorithm in pseudo-code that arranges the cards in ascending order
 
@@ -411,6 +414,7 @@ Challenge:
 25  67  4   33  19  40
 25  4   33  19  40  67
 4   25  19  33  40  67
+4   19  25  33  40  67
 4   19  25  33  40  67
 
 6. What would the following array look like after one iteration of Bubble Sort?
